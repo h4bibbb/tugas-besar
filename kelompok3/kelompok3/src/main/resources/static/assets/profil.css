@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  main {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .toko-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .toko-info {
+    width: 60%;
+  }
+  
+  .toko-info h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+  
+  .toko-info p {
+    margin: 10px 0;
+  }
+  
+  .toko-image {
+    width: 30%;
+  }
+  
+  .toko-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+
+  /* toko.css */
+
+/* Reset style */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  /* Main styling */
+  main {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  /* Profil Toko */
+  .toko-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toko-info {
+    width: 60%;
+  }
+  
+  .toko-info h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .toko-info p {
+    margin-bottom: 10px;
+  }
+  
+  .toko-image {
+    width: 30%;
+  }
+  
+  .toko-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .chat-admin {
+    text-align: center;
+   }
+   
+   .chat-admin a {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+   }
+
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+   
+   header {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+   }
+   
+   header a {
+    color: #ffffff;
+    text-decoration: none;
+   }
+   
+   .toko-profile {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+   }
+   
+   .toko-info {
+    max-width: 50%;
+   }
+   
+   .toko-image {
+    max-width: 50%;
+    text-align: center;
+   }
+   
+   .toko-image img {
+    max-width: 100%;
+    height: auto;
+   }
+   
+   .product-description {
+    padding: 40px 0;
+   }
+   
+   .product-item {
+    margin-bottom: 40px;
+    text-align: center;
+   }
+   
+   .product-item img {
+    max-width: 100%;
+    height: auto;
+   }
+   
+   .admin-chat {
+    text-align: center;
+   }
+  

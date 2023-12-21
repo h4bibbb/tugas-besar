@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Toko</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            max-width: 600px;
+            width: 100%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-y: auto; /* Aktifkan scrolling jika diperlukan */
+            height: 500px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+            color: #555;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Mencegah lebar input melebihi batas maksimum */
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input[type="file"] {
+            margin-top: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <form th:action="@{/daftar}" th:value="${toko}" method="post">
+        <h2>Formulir Pendaftaran Toko</h2>
+
+        <label for="nama_toko">Nama Toko:</label>
+        <input type="text" id="nama_toko" name="nama_toko" required>
+
+        <label for="alamat">Alamat Toko:</label>
+        <textarea id="alamat" name="alamat" rows="4" required></textarea>
+
+        <label for="nomor_hp">Nomor Hp:</label>
+        <textarea id="nomor_hp" name="nomor_hp" rows="4" required></textarea>
+
+        <label for="pemilik">Pemilik: </label>
+        <textarea id="pemilik" name="pemilik" rows="4" required></textarea>
+
+      
+        <input type="submit">
+    </form>
+</body>
+</html>
