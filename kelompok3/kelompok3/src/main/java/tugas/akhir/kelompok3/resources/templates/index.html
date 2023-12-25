@@ -60,11 +60,12 @@
                             <h5 class="fw-bolder" th:text="${t.nama_toko}"></h5>
                             <h5 class="fw-normal" th:text="${t.alamat}"></h5>
                             <h5 class="fw-normal" th:text="${t.nomor_hp}"></h5>
+                            <!-- <h5 class="fw-normal" th:text="${t.logo}"></h5> -->
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" th:href="@{'/toko/' + ${t.id}}">Cek profil toko</a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" th:href="@{'/toko/' + ${t.id}}" >Cek profil toko</a></div>
                     </div>
                 </div>
             </div>

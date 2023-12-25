@@ -24,6 +24,15 @@ public class TokoService {
     return tokoRepo.findAll();
 }
 
+public Toko findById(Integer id) {
+    Toko toko = tokoRepo.findById(id).orElse(null);
+    return toko;
+}
+
+public Toko getById(Long id) {
+    return null;
+}
+
 
 
 }
